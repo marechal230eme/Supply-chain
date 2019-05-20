@@ -43,8 +43,8 @@ after_success:
   - docker tag supplychain:latest 856093160330.dkr.ecr.eu-west-1.amazonaws.com/supplychain:latest
   - docker push 856093160330.dkr.ecr.eu-west-1.amazonaws.com/supplychain:latest
    
-  -curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
-  -chmod +x ./kubectl
+  #-curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
+  #-chmod +x ./kubectl
   #-sudo mv ./kubectl /usr/local/bin/kubectl 
   #-curl -o config https:https://github.com/marechal230eme/Supply-chain
   #-mkdir ${HOME}/.kube
