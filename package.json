@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/marechal230eme/Supply-chain/issues"
   },
-  "homepage": "https://github.com/marechal230eme/Supply-chain#readme"
+  "homepage": "https://github.com/marechal230eme/Supply-chain#readme",
+  "dependencies": {
+    "express": "^4.17.0"
+  }
 }
