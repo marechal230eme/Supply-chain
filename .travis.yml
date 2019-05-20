@@ -54,4 +54,4 @@ after_success:
   -kubectl config set users.kubernetes-group-1-admin.username "$KUBE_CLIENT_CERTIFICATE"
   -kubectl config set users.kubernetes-group-1-admin.password "$KUBE_CLIENT_KEY"
 
-  -kubectl set image deployment/<deplyoment name> <deplyoment name>=<your docker registry>/<image name>:<version>
+  #-kubectl set image deployment/<deplyoment name> <deplyoment name>=<your docker registry>/<image name>:<version>
